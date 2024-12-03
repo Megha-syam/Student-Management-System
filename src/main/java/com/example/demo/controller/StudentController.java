@@ -67,4 +67,9 @@ public class StudentController {
 		 return "redirect:/";
 		
 	}
+
+	@GetMapping("/signup")
+	public String signup(Model model) {
+		return "signup";
+	}
 }
